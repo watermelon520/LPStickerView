@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C2407D71EF3A8E300E2ACB1 /* LPStickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2407D61EF3A8E300E2ACB1 /* LPStickerView.m */; };
 		5CE540171EF12B2A008B22DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE540161EF12B2A008B22DC /* main.m */; };
 		5CE5401A1EF12B2A008B22DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE540191EF12B2A008B22DC /* AppDelegate.m */; };
 		5CE5401D1EF12B2A008B22DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE5401C1EF12B2A008B22DC /* ViewController.m */; };
 		5CE540201EF12B2A008B22DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE5401E1EF12B2A008B22DC /* Main.storyboard */; };
 		5CE540221EF12B2A008B22DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE540211EF12B2A008B22DC /* Assets.xcassets */; };
 		5CE540251EF12B2A008B22DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE540231EF12B2A008B22DC /* LaunchScreen.storyboard */; };
-		5CE5402F1EF12B35008B22DC /* LPStickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE5402E1EF12B35008B22DC /* LPStickerView.m */; };
 		5CE540321EF12B3C008B22DC /* DemoStickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE540311EF12B3C008B22DC /* DemoStickerView.m */; };
 		5CE540361EF1343F008B22DC /* DemoCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE540341EF1343F008B22DC /* DemoCollectionCell.m */; };
 		5CE540371EF1343F008B22DC /* DemoCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CE540351EF1343F008B22DC /* DemoCollectionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C2407D51EF3A8E300E2ACB1 /* LPStickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LPStickerView.h; path = LPStickerView/LPStickerView.h; sourceTree = SOURCE_ROOT; };
+		5C2407D61EF3A8E300E2ACB1 /* LPStickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LPStickerView.m; path = LPStickerView/LPStickerView.m; sourceTree = SOURCE_ROOT; };
 		5CE540121EF12B2A008B22DC /* LPStickerViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPStickerViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE540161EF12B2A008B22DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5CE540181EF12B2A008B22DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -30,8 +32,6 @@
 		5CE540211EF12B2A008B22DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CE540241EF12B2A008B22DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CE540261EF12B2A008B22DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5CE5402D1EF12B35008B22DC /* LPStickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPStickerView.h; sourceTree = "<group>"; };
-		5CE5402E1EF12B35008B22DC /* LPStickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPStickerView.m; sourceTree = "<group>"; };
 		5CE540301EF12B3C008B22DC /* DemoStickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoStickerView.h; sourceTree = "<group>"; };
 		5CE540311EF12B3C008B22DC /* DemoStickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoStickerView.m; sourceTree = "<group>"; };
 		5CE540331EF1343F008B22DC /* DemoCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCollectionCell.h; sourceTree = "<group>"; };
@@ -99,8 +99,8 @@
 		5CE5402C1EF12B35008B22DC /* LPStickerView */ = {
 			isa = PBXGroup;
 			children = (
-				5CE5402D1EF12B35008B22DC /* LPStickerView.h */,
-				5CE5402E1EF12B35008B22DC /* LPStickerView.m */,
+				5C2407D51EF3A8E300E2ACB1 /* LPStickerView.h */,
+				5C2407D61EF3A8E300E2ACB1 /* LPStickerView.m */,
 			);
 			path = LPStickerView;
 			sourceTree = "<group>";
@@ -178,10 +178,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C2407D71EF3A8E300E2ACB1 /* LPStickerView.m in Sources */,
 				5CE540321EF12B3C008B22DC /* DemoStickerView.m in Sources */,
 				5CE5401D1EF12B2A008B22DC /* ViewController.m in Sources */,
 				5CE5401A1EF12B2A008B22DC /* AppDelegate.m in Sources */,
-				5CE5402F1EF12B35008B22DC /* LPStickerView.m in Sources */,
 				5CE540361EF1343F008B22DC /* DemoCollectionCell.m in Sources */,
 				5CE540171EF12B2A008B22DC /* main.m in Sources */,
 			);
@@ -342,6 +342,7 @@
 				5CE5402B1EF12B2A008B22DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

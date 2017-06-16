@@ -49,6 +49,7 @@ NSString * const LPStickerInfoAngleName   = @"LPStickerInfoAngleName";
 
 - (void)base_setUpInit {
     
+    _lp_isTransfromResponse = YES;
     self.lp_maxScaleRadio = 3;
     self.lp_minScaleRadio = 0.5;
     self.lp_borderColor = [UIColor redColor];
