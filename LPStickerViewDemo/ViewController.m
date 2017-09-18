@@ -69,7 +69,7 @@
     stickerView.lp_transfromImage = [UIImage imageNamed:@"LPStickerView_transfrom"];
     stickerView.lp_deleteImage = [UIImage imageNamed:@"LPStickerView_delete"];
     stickerView.lp_borderColor = [UIColor greenColor];
-    stickerView.lp_maxScaleRadio = 12.0;
+    stickerView.lp_maxScaleRadio = 3.0;
     stickerView.lp_minScaleRadio = 0.8;
     stickerView.imageView.image = self.imagesArray[indexPath.item];
     [self.contentView addSubview:stickerView];

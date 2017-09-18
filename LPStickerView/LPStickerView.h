@@ -64,12 +64,12 @@ UIKIT_EXTERN NSString * const LPStickerInfoAngleName; //0 ~ 360
 @property (nonatomic, assign) CGFloat lp_minScaleRadio;
 
 /**
- *  删除按钮图片
+ *  删除按钮图片(默认无图)
  */
 @property (nonatomic, strong) UIImage *lp_deleteImage;
 
 /**
- *  旋转按钮颜色
+ *  旋转按钮颜色(默认无图)
  */
 @property (nonatomic, strong) UIImage *lp_transfromImage;
 
