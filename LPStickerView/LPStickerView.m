@@ -178,6 +178,7 @@ NSString * const LPStickerInfoAngleName   = @"LPStickerInfoAngleName";
                            LPStickerInfoScaleName   : @(scale),
                            LPStickerInfoAngleName   : @(angle),
                            };
+    self.stickerInfoDict = dict;
     if (self.stickerInfoChangeBlock) {
         self.stickerInfoChangeBlock(dict);
     }

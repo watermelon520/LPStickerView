@@ -59,6 +59,12 @@
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     
+    /**
+     *  在这里创建了一个 DemoStickerView 继承自 LPStickerView
+     *  具体代码可以去 DemoStickerView.m 文件里查看
+     *  添加了一个 UIImageView ，使 DemoStickerView 作为贴纸view来使用
+     *  在这里做了初始化操作，并加入父view
+     */
     DemoStickerView *stickerView = [[DemoStickerView alloc] initWithFrame:CGRectMake(0, 0, 100, 150)];
     stickerView.lp_transfromImage = [UIImage imageNamed:@"LPStickerView_transfrom"];
     stickerView.lp_deleteImage = [UIImage imageNamed:@"LPStickerView_delete"];
@@ -73,7 +79,15 @@
         NSLog(@"%@", stickerInfoDict);
         
     };
+    stickerView.deleteBlock = ^{
+      
+        NSLog(@"被删除了");
+    };
     
+    /**
+     *  当添加新的StickerView设置上一个响应的StickerView不响应状态
+     *  同时设置新的StickerView为响应状态
+     */
     self.responseStickerView.lp_isTransfromResponse = NO;
     stickerView.lp_isTransfromResponse = YES;
     self.responseStickerView = stickerView;
